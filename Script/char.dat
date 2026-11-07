@@ -432,7 +432,9 @@ farmer
   TotalVolume = 50000;
   TotalSize = 170;
   NameSingular = "farmer";
+  HeadBitmapPos = 96, 64; /* living farmers pick their head and arms in code; undead copies use these */
   TorsoBitmapPos = 32, 16;
+  ArmBitmapPos = 64, 0;
   LegBitmapPos = 0, 0;
   Belt = LEATHER belt;
   RightWielded = meleeweapon(AXE);
@@ -4376,7 +4378,7 @@ housewife
   ArmMainColor = rgb16(100, 100, 100);
   LegMainColor = rgb16(180, 80, 0);
   /* HairColor is random */
-  /* HeadBitmapPos is random */
+  HeadBitmapPos = 112, 0; /* living housewives pick a random head in code; undead copies use this */
   TorsoBitmapPos = 32, 160;
   ArmBitmapPos = 64, 160;
   LegBitmapPos = 0, 128;
